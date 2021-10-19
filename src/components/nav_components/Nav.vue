@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container flex">
     <div id="nav">
       <router-link to="/">Home</router-link>
       <span> | </span>
@@ -16,4 +16,12 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+#nav {
+  height: 100vh;
+  border-right: 2px solid black;
+}
+h1 {
+  text-align: center;
+}
+</style>

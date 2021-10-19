@@ -1,6 +1,8 @@
 <template>
-  <Nav />
-  <router-view />
+  <div class="container flex">
+    <Nav />
+    <router-view />
+  </div>
 </template>
 
 <script>
