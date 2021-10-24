@@ -1,13 +1,13 @@
 <template>
-  <div class="container flex">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <span> | </span>
-      <router-link to="/about">About</router-link>
-      <span> | </span>
-      <router-link to="/portfolio">Portfolio</router-link>
-      <span> | </span>
-      <router-link to="/contact">Contact</router-link>
+  <div class="container">
+    <div id="nav" class="flex justify-center md:flex-col">
+      <router-link to="/" class="text-center">Home</router-link>
+
+      <router-link to="/about" class="text-center">About</router-link>
+
+      <router-link to="/portfolio" class="text-center">Portfolio</router-link>
+
+      <router-link to="/contact" class="text-center">Contact</router-link>
     </div>
   </div>
 </template>
@@ -17,11 +17,8 @@ export default {};
 </script>
 
 <style scoped>
-#nav {
+/* #nav {
   height: 100vh;
-  border-right: 2px solid black;
-}
-h1 {
-  text-align: center;
-}
+  border-right: 1px solid black;
+} */
 </style>
