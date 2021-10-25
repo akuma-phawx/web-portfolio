@@ -1,7 +1,7 @@
 <template>
-  <div class="container md:flex">
-    <Nav class="bg-blue-700 h-1/6 w-full md:w-1/4 md:h-screen" />
-    <router-view class="bg-yellow-600 w-screen h-screen" />
+  <div class="flex flex-col md:flex-row">
+    <Nav class="bg-gray-300 md:w-1/4" />
+    <router-view class="bg-yellow-400" />
   </div>
 </template>
 
