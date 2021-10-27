@@ -1,6 +1,12 @@
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Roboto'),
+    url('../src/assets/fonts/comfortaa/Comfortaa-Light.ttf') format('truetype');
+}
 @tailwind utilities;
 
 h1 {
