@@ -1,16 +1,7 @@
 <template>
-  <div class="flex max-w-full flex-col md:flex-row">
-    <Nav
-      class="
-        bg-gray-300
-        border-b-2
-        md:border-r-2 md:border-b-0
-        min-w-full
-        md:min-w-0 md:w-1/2
-        lg:w-1/3
-      "
-    />
-    <router-view class="bg-yellow-400 max-w-full h-screen" />
+  <div class="container flex flex-col max-w-full">
+    <Nav class="bg-red-400w-full max-w-full" />
+    <router-view class="h-screen w-full max-w-full" />
   </div>
 </template>
 
