@@ -1,4 +1,4 @@
-# web_portfolio _
+# web_portfolio
 
 ## Project setup
 ```
